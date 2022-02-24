@@ -6,4 +6,6 @@
     restart: unless-stopped
     ports:
       - "8000:8000"
+    environment:
+      HOTSPOT_ADDRESSES: "id1,id2,id3..."
 ```
