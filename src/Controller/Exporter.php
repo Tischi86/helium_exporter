@@ -24,7 +24,7 @@ class Exporter
     }
 
     /**
-     * @Route("/exporter")
+     * @Route("/metrics")
      */
     public function number(): Response
     {
